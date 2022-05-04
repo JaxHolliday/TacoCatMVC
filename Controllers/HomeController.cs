@@ -65,7 +65,6 @@ namespace TacoCatMVC.Controllers
                 palindrome.Message = $"Sorry {palindrome.InputWord} is a Palindrome";
             }
 
-
             return View(palindrome);
         }
 
